@@ -7,3 +7,11 @@
 .vertical-timeline-element-content-arrow {
     background: rgba(0,0,0,0);
 }
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content.bounce-in, .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content.bounce-in {
+        -webkit-animation: cd-bounce-2-inverse .6s;
+        -moz-animation: cd-bounce-2-inverse .6s;
+        animation: cd-bounce-2-inverse .6s
+    }
+}

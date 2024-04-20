@@ -6,7 +6,7 @@ const about = {
     role: 'Software Engineer',
     company: 'M2W IT Solutions',
     description: [
-        'I create softwares that make people\'s live just a tad easier',
+        'I create software that make people\'s live just a little bit easier',
     ],
     resume: 'https://drive.google.com/file/d/1zHQ6W_NZSgnFMzeWLgWRN6zBGbY5E64O/view?usp=drive_link',
     social: {
@@ -22,6 +22,9 @@ const works = [
         companyImage: 'images/mark2win_it_solutions_logo.png',
         startDate: '2012-12-01',
         endDate: '',
+        responsibilities: [
+            "A scalable e-commerce SPA",
+        ]
     },
     {
         position: 'Full Stack Developer',
@@ -29,6 +32,9 @@ const works = [
         companyImage: 'images/iwod_icon.png',
         startDate: '2019-07-01',
         endDate: '2022-09-01',
+        responsibilities: [
+            "A gym management SaaS application",
+        ]
     },
     {
         position: 'Senior IT Engineer Lead',
@@ -36,6 +42,9 @@ const works = [
         companyImage: 'images/dell_icon.png',
         startDate: '2016-07-01',
         endDate: '2019-01-01',
+        responsibilities: [
+            "Lead three field engineers to support over 1000 clients",
+        ]
     },
     {
         position: 'Field Services Engineer',
@@ -43,6 +52,10 @@ const works = [
         companyImage: 'images/dell_icon.png',
         startDate: '2014-01-01',
         endDate: '2016-07-01',
+        responsibilities: [
+            "Provided field service support for key accounts",
+        ]
+
     }
 ]
 
@@ -82,7 +95,7 @@ const projects = [
     // },
     {
         thumbnail: 'images/placeholder-image.jpeg',
-        name: 'Project 4',
+        name: 'Project 1',
         description: [
             'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
         ],
