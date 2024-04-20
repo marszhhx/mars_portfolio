@@ -12,6 +12,7 @@ import '../styles/Skills.css'
 import '../styles/Contact.css'
 import '../styles/ScrollToTop.css'
 import '../styles/Footer.css'
+import '../styles/Works.css'
 import 'animate.css'
 
 // google analytics

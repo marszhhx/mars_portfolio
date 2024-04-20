@@ -1,0 +1,9 @@
+.workIcon__img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.vertical-timeline-element-content-arrow {
+    background: rgba(0,0,0,0);
+}

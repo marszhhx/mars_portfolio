@@ -13,12 +13,14 @@ const About = () => {
     return (
         <div className='about'>
             <div className='about__pseudo-padding about__pseudo-padding-top'/>
-
             {(firstName || role) && (
                 <div>
+                    <div className="about__avatar_container">
+                        <img src='/images/avatar.png' alt='avatar' className='about__avatar'/>
+                    </div>
                     {firstName && (
                         <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-1s'>
-                            Hey, I&apos;m <span className='text--strong'>{firstName}</span>.
+                            Hey, I&apos;m <span className='text--strong'>{firstName}</span>
                             {greetingEmoji && <span> {greetingEmoji}</span>}
                         </h1>
                     )}
@@ -26,13 +28,6 @@ const About = () => {
                     {role && (
                         <h1 className='about__role animate__animated animate__fadeInUp animate__delay-1s'>
                             I&apos;m a {role}
-                            {company && (
-                                <span>
-                  {' '}
-                                    at <span className='text--strong'>{company}</span>
-                </span>
-                            )}
-                            .
                         </h1>
                     )}
                 </div>

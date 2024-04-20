@@ -6,7 +6,7 @@ const about = {
     role: 'Software Engineer',
     company: 'M2W IT Solutions',
     description: [
-        'I want to create software that make people\'s live a little bit easier.',
+        'I create softwares that make people\'s live just a tad easier',
     ],
     resume: 'https://drive.google.com/file/d/1zHQ6W_NZSgnFMzeWLgWRN6zBGbY5E64O/view?usp=drive_link',
     social: {
@@ -17,13 +17,33 @@ const about = {
 
 const works = [
     {
-        companyName: 'Dell EMC',
-        companyImage: 'images/placeholder-image.jpeg',
-        startDate: '2012-12-03',
-        endDate: '2010-12-03',
-        position: 'Senior IT Engineer Lead',
-        description: 'Delivered field technical service by leading a team of three engineers using Scrum framework, maintained a satisfaction rate of 98% for over 1000 B2B customers',
+        position: 'Full Stack Developer',
+        companyName: 'M2W IT Solutions',
+        companyImage: 'images/mark2win_it_solutions_logo.png',
+        startDate: '2012-12-01',
+        endDate: '',
     },
+    {
+        position: 'Full Stack Developer',
+        companyName: 'iWOD Fitness Technology',
+        companyImage: 'images/iwod_icon.png',
+        startDate: '2019-07-01',
+        endDate: '2022-09-01',
+    },
+    {
+        position: 'Senior IT Engineer Lead',
+        companyName: 'Dell EMC',
+        companyImage: 'images/dell_icon.png',
+        startDate: '2016-07-01',
+        endDate: '2019-01-01',
+    },
+    {
+        position: 'Field Services Engineer',
+        companyName: 'Dell EMC',
+        companyImage: 'images/dell_icon.png',
+        startDate: '2014-01-01',
+        endDate: '2016-07-01',
+    }
 ]
 
 const projects = [
@@ -61,14 +81,14 @@ const projects = [
     //   livePreview: 'https://example.com',
     // },
     {
-      thumbnail: 'images/placeholder-image.jpeg',
-      name: 'Project 4',
-      description: [
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      ],
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://example.com',
+        thumbnail: 'images/placeholder-image.jpeg',
+        name: 'Project 4',
+        description: [
+            'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+        ],
+        stack: ['SASS', 'TypeScript', 'React'],
+        sourceCode: 'https://github.com',
+        livePreview: 'https://example.com',
     },
 ]
 
@@ -112,7 +132,6 @@ const contact = {
     email: 'johndoe@email.com',
     // location: 'burnaby'
 }
-
 
 
 export {about, works, projects, iconSkills, contact}
