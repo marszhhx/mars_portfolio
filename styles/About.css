@@ -27,6 +27,14 @@
   gap: 1rem;
 }
 
+.about__avatar {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: #6697ca;
+}
+
+
 @media (min-width: 600px) {
   .about__pseudo-padding-top {
     min-height: calc(5rem - var(--about-column-gap));

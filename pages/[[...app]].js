@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import ScrollToTop from '../components/ScrollToTop'
 import Footer from '../components/Footer'
+import Works from "../components/Works";
 
 function App() {
   const [{ themeName }] = useContext(ThemeContext)
@@ -35,6 +36,7 @@ function App() {
 
       <main className='container'>
         <About />
+        <Works />
         <Projects />
         <Skills />
         <Contact />
